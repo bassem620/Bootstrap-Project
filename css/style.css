@@ -59,7 +59,7 @@ body{
 }
 
 .navbar .navbar-toggler[aria-expanded="true"]{
-    border-color:var(--green-color)
+    border-color:var(--green-color);
 }
 
 /* landing */
@@ -116,17 +116,10 @@ body{
 .our-work ul li{
     padding: 0.5rem 1rem;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 .our-work ul li:not(.active):hover{
     color: var(--green-color);
-}
-
-.our-work .box {
-    padding: 5px;
-    overflow:hidden;
-    position: relative;
 }
 
 .our-work .box::before{
@@ -159,17 +152,9 @@ body{
     background-color: var(--section-color);
 }
 
-.team .container .box{
-    border-radius: 10px;
-}
-
 .team .container .box h4{
     background-color: var(--green-color);
     color: white;
-}
-
-.team .container .box img{
-    border-radius: 10px 10px 0 0 ;
 }
 
 /* Project */
@@ -212,7 +197,6 @@ footer .copyright > span{
 footer .contact ul svg{
     width: 20px;
     height: 20px;
-
 }
 
 footer .facebook{
