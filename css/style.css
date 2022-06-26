@@ -59,7 +59,7 @@ body{
 }
 
 .navbar .navbar-toggler[aria-expanded="true"]{
-    border-color:var(--green-color)
+    border-color:var(--green-color);
 }
 
 /* landing */
