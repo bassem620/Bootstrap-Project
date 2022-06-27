@@ -151,7 +151,7 @@ body{
 .subscribe input[type="text"]:focus{
     outline: none;
 }
-.subscribe ::placeholder{
+.subscribe::placeholder{
     color: white;
 }
 .subscribe input[type="submit"]{
